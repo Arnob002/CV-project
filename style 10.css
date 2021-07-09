@@ -1,0 +1,110 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+   background-color: aliceblue;
+   font-family: 'Roboto Slab', serif;
+}
+.container{
+          background-color: #D1F2EB ;
+          max-width: 1000px;
+          margin: 0 auto;
+          padding: 20px;
+}
+.profile-img{
+            width: 150px;
+            height: 150px;
+            border: 2px solid white;
+            border-radius: 50%;
+            float: left;
+            
+}
+.header-bio{
+            float:left ;
+            padding: 40px;
+            color: teal;
+
+}
+.header-contect{
+                float: right;
+                padding: 50px;
+}
+.header-contect a{
+                  text-decoration: none;
+                  color: teal;
+                  font-weight: bold;
+}
+.header-contect a:hover{
+                  text-decoration: underline;
+                  color: tomato;
+}
+.div-clear{
+         clear: both;
+}
+hr{
+   border: 2px solid black;
+   margin: 20px auto;
+   
+}
+
+/*------------------
+Personal Information
+------------------*/
+
+.personal-section{
+
+}
+.content{
+
+}
+.left-div{
+         color: teal;
+         float: left;
+         width: 30%;
+}
+.right-div{
+         float: left;
+         width: 70%;
+
+}
+.common-hr{
+         border: 1px solid black;
+         margin: 20px auto;
+         width: 100%;
+         border-bottom: none;
+}
+h2,h3,h4,h5 {
+            color: teal;
+}
+
+/*------------------
+Education Information
+------------------*/
+
+.education-tem-left{
+                  width: 45%;
+                  float: left;
+                  
+}
+.education-tem-right{
+                  width: 45%;
+                  float: right;
+}
+/*------------------
+footer Information
+------------------*/
+.bottom-contener{
+               background-color: black;
+               text-align: center;
+               padding: 10px;
+}
+.bottom-contener a{
+                  color: white;
+                  text-decoration: none;
+                  margin: 20px;
+}
+.bottom-contener p{
+                  color: white;
+                  margin-top: 10px;
+}
